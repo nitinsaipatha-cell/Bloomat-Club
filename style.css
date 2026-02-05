@@ -58,6 +58,7 @@ body {
     margin-bottom: 2rem;
     letter-spacing: -0.02em;
     background: linear-gradient(135deg, #fff 0%, #ccc 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: opacity 0.3s ease;
@@ -73,6 +74,7 @@ h1 {
     margin-bottom: 1rem;
     font-weight: 600;
     background: linear-gradient(90deg, #ffffff, #a8a8ff);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 0;
