@@ -28,27 +28,25 @@ body {
     box-sizing: border-box;
 }
 
-/* Clean, box-less layout */
 .message-box {
     padding: 0;
 }
 
+/* Reverted Brand Link Styling to Text */
 .brand-link {
     display: inline-block;
-    border: none;
-    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    text-decoration: none;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid transparent;
+    /* Subtle hover effect */
+    transition: border-color 0.2s ease;
 }
 
 .brand-link:hover {
-    border: none;
-    opacity: 0.8;
-}
-
-.brand-logo {
-    width: 180px;
-    /* Adjust size as needed */
-    height: auto;
-    display: block;
+    border-bottom-color: var(--text-primary);
 }
 
 /* H1 Styling */
@@ -77,8 +75,8 @@ p {
         font-size: 2.25rem;
     }
 
-    .brand-logo {
-        width: 140px;
+    .brand-link {
+        font-size: 1.125rem;
     }
 
     p {
