@@ -2,7 +2,6 @@
     --font-main: 'Outfit', sans-serif;
     --bg-color: #ffffff;
     --text-primary: #111111;
-    /* Slightly softer black for professional look */
     --text-secondary: #666666;
 }
 
@@ -34,23 +33,25 @@ body {
     padding: 0;
 }
 
-/* Brand Link Styling - Minimal & Clean */
 .brand-link {
     display: inline-block;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    text-decoration: none;
-    margin-bottom: 2.5rem;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s ease;
+    border: none;
+    margin-bottom: 2rem;
 }
 
 .brand-link:hover {
-    border-bottom-color: var(--text-primary);
+    border: none;
+    opacity: 0.8;
 }
 
-/* H1 Styling - Bold & Direct */
+.brand-logo {
+    width: 180px;
+    /* Adjust size as needed */
+    height: auto;
+    display: block;
+}
+
+/* H1 Styling */
 h1 {
     font-size: 3rem;
     line-height: 1.1;
@@ -61,7 +62,7 @@ h1 {
     letter-spacing: -0.03em;
 }
 
-/* Paragraph Styling - Professional & Clear */
+/* Paragraph Styling */
 p {
     font-size: 1.25rem;
     color: var(--text-secondary);
@@ -76,8 +77,8 @@ p {
         font-size: 2.25rem;
     }
 
-    .brand-link {
-        font-size: 1.125rem;
+    .brand-logo {
+        width: 140px;
     }
 
     p {
